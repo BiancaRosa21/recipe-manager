@@ -38,7 +38,7 @@ export const PLACEHOLDER_RECIPES: Recipe[] = [
     description:
       "This Indian chickpea curry features a hearty mixture of chickpeas, tomatoes, onion, green chili, and warm Indian spices.",
     imageUrl:
-      "https://plus.unsplash.com/premium_photo-1695456063769-e291a14c3ca1?w=800",
+      "https://images.unsplash.com/photo-1736680056470-948527554276?w=800",
     cuisine: "Indian",
     cookTimeMinutes: 30,
     baseServings: 4,
@@ -99,6 +99,69 @@ export const PLACEHOLDER_RECIPES: Recipe[] = [
       { id: "3-8", name: "Corn", quantity: 1, unit: "cup" },
       { id: "3-9", name: "Chili pepper", quantity: 100, unit: "g" },
       { id: "3-10", name: "Tortilla chips", quantity: 0.5, unit: "cup" },
+    ],
+  },
+  {
+    id: "4",
+    title: "Beef Tacos",
+    description:
+      "Juicy seasoned ground beef in crispy taco shells topped with shredded cheese, lettuce, and fresh tomato. A family favorite ready in under 30 minutes.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=800",
+    cuisine: "Mexican",
+    cookTimeMinutes: 25,
+    baseServings: 4,
+    tags: ["tacos", "mexican", "beef"],
+    instructions: [
+      "Heat oil in a skillet over medium-high heat.",
+      "Add ground beef and cook, breaking it apart, until browned.",
+      "Drain excess fat from the skillet.",
+      "Stir in taco seasoning and water, simmer for 5 minutes.",
+      "Warm taco shells in the oven according to package instructions.",
+      "Fill shells with beef mixture.",
+      "Top with shredded cheese, lettuce, and diced tomato.",
+      "Serve immediately and enjoy.",
+    ],
+    ingredients: [
+      { id: "4-1", name: "Ground beef", quantity: 500, unit: "g" },
+      { id: "4-2", name: "Taco shells", quantity: 12, unit: "" },
+      { id: "4-3", name: "Taco seasoning", quantity: 2, unit: "tbsp" },
+      { id: "4-4", name: "Water", quantity: 0.5, unit: "cup" },
+      { id: "4-5", name: "Shredded cheese", quantity: 1, unit: "cup" },
+      { id: "4-6", name: "Lettuce", quantity: 1, unit: "cup" },
+      { id: "4-7", name: "Tomato", quantity: 2, unit: "" },
+      { id: "4-8", name: "Oil", quantity: 1, unit: "tbsp" },
+    ],
+  },
+  {
+    id: "5",
+    title: "Garlic Butter Shrimp Pasta",
+    description:
+      "Succulent shrimp tossed in a rich garlic butter sauce with white wine and parmesan over linguine. Elegant enough for guests, easy enough for a weeknight.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1677681483419-e18aa1376db7?w=800",
+    cuisine: "Italian",
+    cookTimeMinutes: 25,
+    baseServings: 4,
+    tags: ["pasta", "seafood", "italian"],
+    instructions: [
+      "Bring a large pot of salted water to a boil and cook linguine until al dente.",
+      "Pat shrimp dry and season with salt and pepper.",
+      "Melt butter in a large skillet over medium-high heat.",
+      "Add shrimp and cook 1 to 2 minutes per side until pink, then set aside.",
+      "Add garlic to the skillet and cook for 1 minute until fragrant.",
+      "Pour in white wine and simmer for 2 minutes.",
+      "Add drained pasta to the skillet and toss to coat.",
+      "Return shrimp to the pan, top with parmesan and parsley, and serve.",
+    ],
+    ingredients: [
+      { id: "5-1", name: "Linguine", quantity: 400, unit: "g" },
+      { id: "5-2", name: "Shrimp", quantity: 500, unit: "g" },
+      { id: "5-3", name: "Butter", quantity: 4, unit: "tbsp" },
+      { id: "5-4", name: "Garlic", quantity: 5, unit: "" },
+      { id: "5-5", name: "White wine", quantity: 0.5, unit: "cup" },
+      { id: "5-6", name: "Parmesan", quantity: 0.5, unit: "cup" },
+      { id: "5-7", name: "Fresh parsley", quantity: 0.25, unit: "cup" },
     ],
   },
 ];
